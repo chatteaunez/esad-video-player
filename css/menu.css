@@ -25,10 +25,6 @@ html{
   z-index: -1;
 }
 
-img{
-
-}
-
 /*----------------------------------MENU----------------------------------*/
 .menu{
   font-size: 40px;
@@ -43,18 +39,29 @@ img{
   /*white-space: nowrap;*/
   transition: opacity 300ms;
   display: inline-block;
+  padding:6px 26px;
 }
 
 .menu a:hover {
   cursor: pointer;
 }
 
-.menu a:not(.active){
-  opacity: .4;
+.menu a.active{
+  padding:0 20px;
+  border: solid white 6px;
+  background-color:rgba(0,0,0,.7);
+}
+
+
+.menu.active a:not(.active){
+  opacity: .2;
 }
 .menu span{
-  margin : 0 0.3em;
-  opacity: .4;
+  transition: opacity 300ms;
+  margin:0 -8px;
+}
+.menu.active span{
+  opacity: 0;
 }
 /*.menu a:not(:first-of-type)::before{
   content: "|";

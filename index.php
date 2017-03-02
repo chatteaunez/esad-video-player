@@ -13,7 +13,7 @@
     <div id="fond">
     </div>
 
-    <section class="menu">
+    <section class="menu" onmouseout="this.classList.remove('active');">
       <?php
         $i=0;
         foreach ($projects as $p) {

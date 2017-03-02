@@ -42,4 +42,5 @@ function menuhover(e){
 		elements[i].className= '';
 	}
 	e.className= "active";
+	e.parentNode.classList.add('active');
 }

@@ -1,4 +1,6 @@
 /*----------------------------------GLOBAL----------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Chivo');
+
 body{
   display: table;
   height: 100%;
@@ -7,6 +9,7 @@ body{
 html{
   background-color: black;
   height: 100%;
+  font-family: 'Chivo', sans-serif;
 }
 
 /*----------------------------------MENU----------------------------------*/
@@ -16,6 +19,7 @@ html{
   color: white;
   display: table-cell;
   vertical-align: middle;
+  font-weight: 700;
 }
 
 .menu a{

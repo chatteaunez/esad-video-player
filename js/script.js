@@ -34,3 +34,7 @@ function getVideo(name){
 function injectVideoMarkup(data){
   alert(data);
 }
+
+function menuhover(e){
+	document.body.style.backgroundImage = "url('"+e.dataset.image+"')";
+}

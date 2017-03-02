@@ -18,7 +18,7 @@
           if($i>0){
             echo '<span class="pipe">|</span>';
           }
-          echo('<a class="" onclick="getVideo(\''.$p->title.'\');" data-image="data/images/'.$p->image.'">'.$p->title.'</a>');
+          echo('<a class="" onclick="getVideo(\''.$p->title.'\');" data-image="data/images/'.$p->image.'" onmouseenter="menuhover(this)">'.$p->title.'</a>');
           $i++;
         }
       ?>

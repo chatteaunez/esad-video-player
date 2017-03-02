@@ -69,18 +69,3 @@ html{
 }*/
 
 /*----------------------------------SINGLE DIV----------------------------------*/
-
-#single{
-  height: 100vh;
-  width: 33%;
-  position: absolute;
-  top:0px;
-  left: 0px;
-  background-color: red;
-  box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
-  transition: left 500ms;
-}
-
-#single:empty{
-  left: -100%;
-}

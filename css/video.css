@@ -5,7 +5,29 @@
   top:0;left:0;
 }
 
+#single aside{
+  position: absolute;
+  height: 100vh;
+  width: 33%;
+  color: white;
+  margin: 20px;
+  background-color: black ;
+  box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
+  transition: left 500ms;
+}
+#single:empty aside,
+#single.playing aside{
+  left: -100%;
+}
+
 #single video{
   width:100%;
   height:100%;
+}
+
+.participants{
+
+}
+.participants span {
+  margin-right: 10px;
 }

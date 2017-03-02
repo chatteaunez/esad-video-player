@@ -32,7 +32,7 @@ function getVideo(name){
 }
 
 function injectVideoMarkup(data){
-  alert(data);
+  document.getElementById('single').innerHTML = data;
 }
 
 function menuhover(e){

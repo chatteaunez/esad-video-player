@@ -12,7 +12,8 @@
         echo ('<p class="description">'.$p->description.'</p>');
         echo ('<div class="back" onclick="this.parentNode.parentNode.innerHTML=\'\'">Retour</div>');
       echo('</aside>');
-      echo('<video src="../data/videos/'.$p->lien.'"></video>');
+      echo('<video src="./data/videos/'.$p->lien.'"></video>');
+      echo('<div id="mask" onclick="playPause(this);"></div>');
     }
   }
 

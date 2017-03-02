@@ -1,5 +1,6 @@
 <html>
   <head>
+   <link href="https://fonts.googleapis.com/css?family=Chivo:400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/video.css">
   </head>

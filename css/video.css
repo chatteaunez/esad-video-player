@@ -1,3 +1,9 @@
+#single{
+  transition: left 500ms;
+}
+#single{
+  left: -100%;
+}
 #single:not(:empty){
   position: fixed;
   z-index: 100;
@@ -14,12 +20,12 @@
   padding: 40px;
   background-color: black ;
   box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
-  transition: left 500ms;
 }
-#single:empty aside,
+
+/*#single:empty aside,
 #single.playing aside{
   left: -100%;
-}
+}*/
 
 #single video{
   width:100%;
@@ -46,24 +52,19 @@
   margin : 0 3px;
 }
 
-.participants span:not(:first-of-type)::after{
-  content: "|";
-  margin : 0 3px;
-}
-
 .participants span {
   margin-right: 10px;
 }
 
-description {
+p.description {
   border-top: solid white 6px;
   padding-top: 20px;
 }
 
 .back{
-  position: fixed;
+  position: absolute;
   left: 40px;
-  bottom: 40px;
+  bottom: 120px;
   display: inline-block;
   border-bottom: solid white 6px;
   padding: 16px 0px 6px 0px;

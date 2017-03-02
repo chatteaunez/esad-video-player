@@ -10,7 +10,7 @@
   height: 100vh;
   width: 33%;
   color: white;
-  margin: 20px;
+  padding: 40px;
   background-color: black ;
   box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
   transition: left 500ms;
@@ -24,7 +24,9 @@
   width:100%;
   height:100%;
 }
-
+.title{
+  font-weight: 700;
+}
 .participants{
 
 }

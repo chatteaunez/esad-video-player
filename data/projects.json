@@ -17,7 +17,7 @@
       "Florian Le Gall",
       "Wu Qiannan"
     ],
-    "description": "La carte est un outil que nous utilisons fréquemment aujourd'hui, d'autant plus que chacun de nos smartphones fait aujourd'hui office de GPS. Cependant il n'est pas aisé pour les malvoyants et les nonvoyants d'en faire usage car la cartographie est avant tout utilisée de manière visuelle. Pour rendre les cartes plus accessibles, nous avons explorer une manière de naviguer sur la carte où le tactile fonctionne de concert avec un retour sonore. Chaque zone, ligne ou point appartenant à une catégorie spécifique joue un son particulier, stéréotypé pour en rendre compte. Il est également possible de suivre un itinéraire grâce un système de dissonance : plus le doigt s'éloigne du trajet de l'itinéraire, plus un son dissonnant est émis. L'application présente toujours une interface visuelle dans une démarche de design universel pour ne pas être stigmatisant.  ",
+    "description": "Découverte Cartographique Sonore est une application visant à rendre accessible la cartographie aux malvoyants et nonvoyants tout en restant universellement accessible, mais aussi à préparer un itinéraire. L’application fonctionnne de manière tactile avec des retours sonores stéréotypés permettant d’identifier les éléments. Un système de dissonnance permet à l’utilisateur de réaliser s’il s’éloigne du trajet proposé.",
     "lien": "nomdelavideo.mp4",
     "image": "nomdelimage.jpg"
   },
@@ -28,7 +28,7 @@
       "Pierre Zimmer",
       "Madeleine De Vos"
     ],
-    "description": "En ville, nos repères sont principalement visuels, à l'inverse nous sommes moins sensibles à notre environnement sonore. Nous avons avons voulu créer un système qui redonne de la valeur aux différents sons qui nous entourent, et ne plus les percevoir systématiquement comme nuisibles.<br />Les données sonores sont récoltées grâce à une application qui invitent les utilisateurs à enregistrer et classifier des sons pour compléter des quêtes et les inciter à parcourir la ville.<br />Puis ces données catégorisées sont retranscrites visuellement dans une webapp afin de pouvoir être mises en corrélation avec d'autres jeux de données (position des bars, trafics routiers, pollution de l'air...).<br />Avec cette cartographie sonore, l'utilisateur accède ainsi à une meilleure compréhension de sa ville et de son environnement.",
+    "description": "Destinée à la prise de note rapide et à une utilisation nomade, le but de cette application est de repenser l’idée du geste et d’apporter de la sensibilité.<br />Chaque joueur a la possibilité de personnaliser sa batterie avec différents types d’instruments et de sonorités.<br />Les morceaux produits sont instantanément retranscrits par le biais d’une notation simplifiée. Ce système d’écriture est une amorce à une composition musicale future qui devra être perfectionnée via des outils plus techniques.<br />L’application prend alors l’allure d’un carnet de note musical.",
     "lien": "nomdelavideo.mp4",
     "image": "nomdelimage.jpg"
   },
@@ -47,11 +47,32 @@
   {
     "title": "Gestuelle musicale",
     "participants": [
-      "Alix",
-      "Chloé",
-      "Valentine"
+      "Alix Bonte",
+      "Chloé Girard",
+      "Valentine Chevalley"
     ],
-    "description": "Gestuelle Musicale est une application permettant la découverte de la pratique du chef d'orchestre.<br />Didactique, elle propose un apprentissage théorique et pratique en trois exercices. Guidé tout au long de sa progression, l'utilisateur ne peut pas passer à l'exercice suivant sans avoir validé le précédent.<br />Au sein de l'exercice intitulé « découverte », l'apprenti exécute les gestes grâce à une Kinect qui capte ses mouvements et le corrige en temps réel. Ensuite, vient l'exercice « approfondissement » dans lequel il s'entraîne sur des partitions à l'aide d'un feedback musical en continu. Pour finir, dans l'exercice « synthèse », il est amené à spatialiser ses nouvelles compétences. Il effectue les gestes devant une représentation orchestrale lui renvoyant des indications musicales et visuelles.",
+    "description": "Gestuelle Musicale est une application permettant la découverte de la pratique du chef d'orchestre.<br />Didactique, elle propose un apprentissage théorique et pratique en trois exercices.",
+    "lien": "nomdelavideo.mp4",
+    "image": "nomdelimage.jpg"
+  },
+  {
+    "title": "Esquisse musicale",
+    "participants": [
+      "Anne Delcourt",
+      "Manon Verdier"
+    ],
+    "description": "Destinée à la prise de note rapide et à une utilisation nomade, le but de cette application est de repenser l’idée du geste et d’apporter de la sensibilité.<br />Chaque joueur a la possibilité de personnaliser sa batterie avec différents types d’instruments et de sonorités.<br />Les morceaux produits sont instantanément retranscrits par le biais d’une notation simplifiée. Ce système d’écriture est une amorce à une composition musicale future qui devra être perfectionnée via des outils plus techniques.<br />L’application prend alors l’allure d’un carnet de note musical.",
+    "lien": "videoavenir.mp4",
+    "image": "imageavenir.jpg"
+  },
+  {
+    "title": "Matière Sonore",
+    "participants": [
+      "Faustine Delbourg",
+      "Siloé Nouyrit",
+      "Margaux Thiénot"
+    ],
+    "description": "À travers une table musicale, nous voulions rendre palpable les paramères musicaux. Ce projet, adapté aux novices comme aux expérimentés, permet de relier la compréhension auditive avec la représentation visuelle des effets sonores, leurs évolutions et leurs superpositions. ",
     "lien": "nomdelavideo.mp4",
     "image": "nomdelimage.jpg"
   }

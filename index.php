@@ -27,8 +27,7 @@
     </section>
 
 
-    <div id="single">
-    </div>
+    <div id="single"></div>
 
     <script src="js/script.js"></script>
   </body>

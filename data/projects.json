@@ -2,5 +2,6 @@
   "title":"mettez votre titre ici",
   "participants":["Jean","Pierre","Marcel"],
   "description":"Un super projet qui tue",
-  "lien":"nomdelavideo.mp4"
+  "lien":"nomdelavideo.mp4",
+  "image":"nomdelimage.jpg"
 }

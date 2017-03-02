@@ -28,6 +28,9 @@
 
 
     <div id="single">
+      <aside class="">
+
+      </aside>
     </div>
 
     <script src="js/script.js"></script>

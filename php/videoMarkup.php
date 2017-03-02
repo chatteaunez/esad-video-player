@@ -10,7 +10,7 @@
         }
         echo('</h2>');
         echo ('<p class="description">'.$p->description.'</p>');
-        echo ('<button class="back" onclick="this.parentNode.parentNode.innerHTML=\'\'">Retour</button>');
+        echo ('<div class="back" onclick="this.parentNode.parentNode.innerHTML=\'\'">Retour</div>');
       echo('</aside>');
       echo('<video src="../data/videos/'.$p->lien.'"></video>');
     }

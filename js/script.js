@@ -44,3 +44,13 @@ function menuhover(e){
 	e.className= "active";
 	e.parentNode.classList.add('active');
 }
+
+function playPause(e) {
+  var myVideo = e.previousSibling;
+    if (myVideo.paused)
+        myVideo.play();
+    else
+        myVideo.pause();
+
+    document.getElementById('single').classList.toggle('playing');
+}

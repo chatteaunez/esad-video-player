@@ -18,7 +18,7 @@ function xhr_call(url,data,f,e){
 			case 'object': formData.append(key,data[key],data[key].name); break; // File
 		}
 	var xhr = xhr_new(f,e);
-	xhr.open("POST",url,false);
+	xhr.open("POST",url);
 	xhr.send(formData);
 	return xhr;
 }

@@ -1,6 +1,17 @@
-{
-  "title":"mettez votre titre ici",
-  "participants":["Jean","Pierre","Marcel"],
-  "description":"Un super projet qui tue",
-  "lien":"nomdelavideo.mp4"
-}
+[
+  {
+    "title":"mettez votre titre ici",
+    "participants":["Jean","Pierre","Marcel"],
+    "description":"Un super projet qui tue",
+    "lien":"nomdelavideo.mp4"
+  },
+
+  {
+    "title":"The Ghost Notes",
+    "participants":[ "David Dao-Ellena", "Fei Gao", "Tanguy Deniel"],
+    "description":"The Ghost Notes est un jeu dont le principe est de se repérer dans un espace totalement noir grâce à la spatialisation. Retrouvez les fragments de mémoire du personnage à travers une aventure envoûtante.",
+    "lien":"nomdelavideo.mp4",
+    "image":"nomdelimage.jpg"
+  }
+
+]

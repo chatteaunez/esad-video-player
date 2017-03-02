@@ -22,3 +22,15 @@ function xhr_call(url,data,f,e){
 	xhr.send(formData);
 	return xhr;
 }
+
+
+///////// FUNCTIONS /////////
+
+function getVideo(name){
+  var data = {"name":name};
+  xhr_call("php/videoMarkup.php",data,injectVideoMarkup);
+}
+
+function injectVideoMarkup(data){
+  alert(data);
+}

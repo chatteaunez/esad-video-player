@@ -36,5 +36,10 @@ function injectVideoMarkup(data){
 }
 
 function menuhover(e){
-	document.body.style.backgroundImage = "url('"+e.dataset.image+"')";
+	document.getElementById('fond').style.backgroundImage = "url('"+e.dataset.image+"')";
+	var elements = e.parentNode.children;
+	for (var i = 0; i < elements.length; i++) {
+		elements[i].className= '';
+	}
+	e.className= "active";
 }

@@ -10,19 +10,26 @@
 ?>
 
   <body>
+    <div id="fond">
+    </div>
 
     <section class="menu">
       <?php
         $i=0;
         foreach ($projects as $p) {
           if($i>0){
-            echo '<span class="pipe">|</span>';
+            echo '<span class="">|</span>';
           }
           echo('<a class="" onclick="getVideo(\''.$p->title.'\');" data-image="data/images/'.$p->image.'" onmouseenter="menuhover(this)">'.$p->title.'</a>');
           $i++;
         }
       ?>
     </section>
+
+
+    <div id="single">
+    </div>
+
     <script src="js/script.js"></script>
   </body>
 </html>

@@ -1,9 +1,3 @@
-#single{
-  transition: left 500ms;
-}
-#single{
-  left: -100%;
-}
 #single:not(:empty){
   position: fixed;
   z-index: 100;
@@ -20,27 +14,19 @@
   padding: 40px;
   background-color: black ;
   box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
+  transition: left 500ms;
 }
 
-/*#single:empty aside,
+#single:empty aside,
 #single.playing aside{
   left: -100%;
-}*/
+}
 
 #single video{
-  position: absolute;
   width:100%;
   height:100%;
   z-index: 8;
-  background: #333;
 }
-#mask{
-  position: absolute;
-  width: 100%;height: 100%;
-  background-color: rgba(255, 0, 0, 0.5);
-  z-index: 14;
-}
-#single.playing #mask{opacity: 0;}
 .title{
   display: table;
   margin: 0 auto;
@@ -65,11 +51,7 @@
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 p.description {
-=======
-.description {
->>>>>>> e05b1a3ac35ec43167eb574f235ef616aa6a0815
   border-top: solid white 6px;
   padding-top: 20px;
 }

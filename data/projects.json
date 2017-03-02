@@ -1,18 +1,42 @@
 [
   {
-    "title":"mettez votre titre ici",
-    "participants":["Jean","Pierre","Marcel"],
-    "description":"Un super projet qui tue",
+    "title":"The Ghost Notes",
+    "participants":["David Dao-Ellena", "Fei Gao", "Tanguy Deniel"],
+    "description":"The Ghost Notes est un jeu dont le principe est de se repérer dans un espace totalement noir grâce à la spatialisation. Retrouvez les fragments de mémoire du personnage à travers une aventure envoûtante.",
     "lien":"nomdelavideo.mp4",
     "image":"nomdelimage.jpg"
   },
 
   {
-    "title":"The Ghost Notes",
-    "participants":[ "David Dao-Ellena", "Fei Gao", "Tanguy Deniel"],
-    "description":"The Ghost Notes est un jeu dont le principe est de se repérer dans un espace totalement noir grâce à la spatialisation. Retrouvez les fragments de mémoire du personnage à travers une aventure envoûtante.",
+    "title":"Découverte cartographique sonore",
+    "participants":["Alexis Leuleu","Florian Le Gall","Wu Qiannan"],
+    "description":"La carte est un outil que nous utilisons fréquemment aujourd'hui, d'autant plus que chacun de nos smartphones fait aujourd'hui office de GPS. Cependant il n'est pas aisé pour les malvoyants et les nonvoyants d'en faire usage car la cartographie est avant tout utilisée de manière visuelle. Pour rendre les cartes plus accessibles, nous avons explorer une manière de naviguer sur la carte où le tactile fonctionne de concert avec un retour sonore. Chaque zone, ligne ou point appartenant à une catégorie spécifique joue un son particulier, stéréotypé pour en rendre compte. Il est également possible de suivre un itinéraire grâce un système de dissonance : plus le doigt s'éloigne du trajet de l'itinéraire, plus un son dissonnant est émis. L'application présente toujours une interface visuelle dans une démarche de design universel pour ne pas être stigmatisant.  ",
     "lien":"nomdelavideo.mp4",
     "image":"nomdelimage.jpg"
-  }
+  },
+
+  {
+  "title":"Cartographie sonore",
+  "participants":["Charlotte Reynard","Pierre Zimmer","Madeleine De Vos"],
+  "description":"En ville, nos repères sont principalement visuels, à l'inverse nous sommes moins sensibles à notre environnement sonore. Nous avons avons voulu créer un système qui redonne de la valeur aux différents sons qui nous entourent, et ne plus les percevoir systématiquement comme nuisibles.<br />Les données sonores sont récoltées grâce à une application qui invitent les utilisateurs à enregistrer et classifier des sons pour compléter des quêtes et les inciter à parcourir la ville.<br />Puis ces données catégorisées sont retranscrites visuellement dans une webapp afin de pouvoir être mises en corrélation avec d'autres jeux de données (position des bars, trafics routiers, pollution de l'air...).<br />Avec cette cartographie sonore, l'utilisateur accède ainsi à une meilleure compréhension de sa ville et de son environnement.",
+  "lien":"nomdelavideo.mp4",
+  "image":"nomdelimage.jpg"
+},
+
+{
+  "title":"jam.io ",
+  "participants ":["Fanny Muller", "Nicodème Kamienski", "Simon Heller", "Arthur Hun"],
+  "description":"JAM.IO est une web app de collaboration musicale en ligne basé sur de l’interaction en temps réel. Les utilisateurs sont regroupés au sein d’une même plateforme matérialisée sous forme de carte. Chaque type d’utilisateur possède une fonction qui lui est propre et qui permettra au bon fonctionnement du jam.",
+  "lien ": "jamio.mp4",
+  "image ": "jamio.jpg"
+},
+
+{
+  "title" : "Gestuelle musicale",
+  "participants" :["Alix", "Chloé", "Valentine"],
+  "description":"Gestuelle Musicale est une application permettant la découverte de la pratique du chef d'orchestre.<br />Didactique, elle propose un apprentissage théorique et pratique en trois exercices. Guidé tout au long de sa progression, l'utilisateur ne peut pas passer à l'exercice suivant sans avoir validé le précédent.<br />Au sein de l'exercice intitulé « découverte », l'apprenti exécute les gestes grâce à une Kinect qui capte ses mouvements et le corrige en temps réel. Ensuite, vient l'exercice « approfondissement » dans lequel il s'entraîne sur des partitions à l'aide d'un feedback musical en continu. Pour finir, dans l'exercice « synthèse », il est amené à spatialiser ses nouvelles compétences. Il effectue les gestes devant une représentation orchestrale lui renvoyant des indications musicales et visuelles.",
+  "lien":"nomdelavideo.mp4",
+  "image":"nomdelimage.jpg"
+}
 
 ]

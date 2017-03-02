@@ -12,8 +12,13 @@
 
     <section class="menu">
       <?php
+        $i=0;
         foreach ($projects as $p) {
+          if($i>0){
+            echo '<span class="pipe">|</span>';
+          }
           echo('<a class="" onclick="getVideo(\''.$p->title.'\');" data-image="data/images/'.$p->image.'">'.$p->title.'</a>');
+          $i++;
         }
       ?>
     </section>

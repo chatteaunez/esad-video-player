@@ -1,0 +1,41 @@
+/*----------------------------------GLOBAL----------------------------------*/
+body{
+  display: table;
+  height: 100%;
+}
+
+html{
+  background-color: black;
+  height: 100%;
+}
+
+/*----------------------------------MENU----------------------------------*/
+.menu{
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.menu a{
+  /*white-space: nowrap;*/
+  transition: opacity 300ms;
+  display: inline-block;
+}
+
+.menu a:hover {
+  cursor: pointer;
+}
+
+.menu a:not(:hover){
+  opacity: .4;
+}
+.pipe{
+  margin : 0 0.3em;
+  opacity: .4;
+}
+/*.menu a:not(:first-of-type)::before{
+  content: "|";
+  margin : 0 0.3em;
+}*/

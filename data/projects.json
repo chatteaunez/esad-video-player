@@ -7,8 +7,8 @@
       "Tanguy Deniel"
     ],
     "description": "The Ghost Notes est un jeu dont le principe est de se repérer dans un espace totalement noir grâce à la spatialisation. Retrouvez les fragments de mémoire du personnage à travers une aventure envoûtante.",
-    "lien": "nomdelavideo.mp4",
-    "image": "kitten.jpg",
+    "lien": "GN.mp4",
+    "image": "GN.jpg",
     "audio": "true"
   },
   {
@@ -19,8 +19,8 @@
       "Wu Qiannan"
     ],
     "description": "Découverte Cartographique Sonore est une application visant à rendre accessible la cartographie aux malvoyants et nonvoyants tout en restant universellement accessible, mais aussi à préparer un itinéraire. L’application fonctionnne de manière tactile avec des retours sonores stéréotypés permettant d’identifier les éléments. Un système de dissonnance permet à l’utilisateur de réaliser s’il s’éloigne du trajet proposé.",
-    "lien": "nomdelavideo.mp4",
-    "image": "dolphin.jpg",
+    "lien": "DGS.mp4",
+    "image": "DGS.jpg",
     "audio": "true"
   },
   {
@@ -31,8 +31,8 @@
       "Madeleine De Vos"
     ],
     "description": "Destinée à la prise de note rapide et à une utilisation nomade, le but de cette application est de repenser l’idée du geste et d’apporter de la sensibilité.<br />Chaque joueur a la possibilité de personnaliser sa batterie avec différents types d’instruments et de sonorités.<br />Les morceaux produits sont instantanément retranscrits par le biais d’une notation simplifiée. Ce système d’écriture est une amorce à une composition musicale future qui devra être perfectionnée via des outils plus techniques.<br />L’application prend alors l’allure d’un carnet de note musical.",
-    "lien": "Cartographie_1.mp4",
-    "image": "nomdelimage.jpg",
+    "lien": "CS.mp4",
+    "image": "CS.jpg",
     "audio": "true"
   },
   {
@@ -44,8 +44,8 @@
       "Arthur Hun"
     ],
     "description": "JAM.IO est une web app de collaboration musicale en ligne basé sur de l’interaction en temps réel. Les utilisateurs sont regroupés au sein d’une même plateforme matérialisée sous forme de carte. Chaque type d’utilisateur possède une fonction qui lui est propre et qui permettra au bon fonctionnement du jam.",
-    "lien": "JL.mp4",
-    "image": "JL.jpg",
+    "lien": "JI.mp4",
+    "image": "JI.jpg",
     "audio": "true"
   },
   {
@@ -56,8 +56,8 @@
       "Valentine Chevalley"
     ],
     "description": "Gestuelle Musicale est une application permettant la découverte de la pratique du chef d'orchestre.<br />Didactique, elle propose un apprentissage théorique et pratique en trois exercices.",
-    "lien": "nomdelavideo.mp4",
-    "image": "nomdelimage.jpg",
+    "lien": "GM.mp4",
+    "image": "GM.jpg",
     "audio": "true"
   },
   {
@@ -67,8 +67,8 @@
       "Manon Verdier"
     ],
     "description": "Destinée à la prise de note rapide et à une utilisation nomade, le but de cette application est de repenser l’idée du geste et d’apporter de la sensibilité.<br />Chaque joueur a la possibilité de personnaliser sa batterie avec différents types d’instruments et de sonorités.<br />Les morceaux produits sont instantanément retranscrits par le biais d’une notation simplifiée. Ce système d’écriture est une amorce à une composition musicale future qui devra être perfectionnée via des outils plus techniques.<br />L’application prend alors l’allure d’un carnet de note musical.",
-    "lien": "videoavenir.mp4",
-    "image": "imageavenir.jpg",
+    "lien": "EM.mp4",
+    "image": "EM.jpg",
     "audio": "true"
   },
   {

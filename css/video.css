@@ -13,14 +13,15 @@
   width: 33%;
   color: white;
   padding: 40px;
+  left:-100%;;
   background-color: black ;
   box-shadow: -4px 0px 30px 2px rgba(0,0,0,0.75);
   transition: left 500ms;
 }
 
 #single:empty aside,
-#single.playing aside{
-  left: -100%;
+#single:not(.playing) aside{
+  left: 0;
 }
 
 #single video{

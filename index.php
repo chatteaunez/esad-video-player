@@ -9,7 +9,7 @@
   $projects=json_decode(file_get_contents('data/projects.json'));
 ?>
 
-  <body>
+  <body class="noselect">
     <div id="fond">
     </div>
 

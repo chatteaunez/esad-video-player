@@ -10,6 +10,9 @@
         }
         echo('</h2>');
         echo ('<p class="description">'.$p->description.'</p>');
+        if ($p->audio) {
+          echo ('<p class="casque"><br /><br /><img src="data/images/casque_picto.png"s /><br /><br />Activez l\'audio</p>');
+        }
         echo ('<div class="back" onclick="this.parentNode.parentNode.innerHTML=\'\'">Retour</div>');
       echo('</aside>');
       echo('<video src="./data/videos/'.$p->lien.'"></video>');

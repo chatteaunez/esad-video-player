@@ -74,7 +74,10 @@ p.description {
   position: absolute;
   width:100%;height:100%;
   top:0;left:0;
-  background-color: rgba(255, 0, 0, 0.5);
+  background-image: url('../data/images/play_button.png');
+  background-repeat: no-repeat;
+  background-position: 76% center;
   z-index: 14;
 }
 #single.playing #mask{opacity: 0;}
+.casque{text-align: center;}
